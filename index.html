@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,600;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ece1412926.js" crossorigin="anonymous"></script>
     <title>Web Developer Portfolio</title>
 </head>
 <body>
@@ -24,8 +25,8 @@
                 <h3 class="banner-greatting">Hi, I  am</h3>
                 <h1 class="banner-title">Abdullah <span class="text-primary">Al</span> Sabbir</h1>
                 <p class="banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, veniam odio omnis iusto nobis reprehenderit, vitae nihil quisquam libero impedit magni </p>
-                <button class="btn-primary"; id="download-cv";>Download CV</button>
-                <button class="btn-primary-2";id="contact-btn";>Contact</button>
+                <button class="btn-primary"; id="download-cv";><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="btn-primary-2";id="contact-btn";><i class="fa-solid fa-phone"></i> Contact</button>
             </div>
             <img class="pro-pic" src="images/hardy.png" alt="">
 
@@ -134,12 +135,30 @@
                 </div>
             </div>
             <div class="download-cv">
-                <button class="btn-primary" id="cv-download";>Download CV</button>
+                <button  class="btn-primary" id="cv-download";><i class="fa-solid fa-download"></i> Download CV</button>
             </div>
         </section>
 
     </main>
     <footer>
+        <div class="footer-colam">
+            <h3 class="section-title">Let's Connect</h3>
+            <p class="section-discription">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div class="social-link">
+                <a href=""><img src="images/icons/facebook.png" alt="Facebook Link"></a>
+                <a href=""><img src="images/icons/twitter.png" alt="InstaGram Link"></a>
+                <a href=""><img src="images/icons/insta.png" alt="Instagram "></a>
+            </div>
+        </div>
+        <div class="footer-colam">
+            <h3 class="section-title">Let's Message Me</h3>
+            <form class="contact"; action="">
+                <input type="text" placeholder="Your Name" id="input-name" >
+                <input type="email" name="input-email" id="input-email" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" id="submit-btn"; class="btn-primary"; value="Submit">
+            </form>
+        </div>
 
     </footer>   
 </body>
